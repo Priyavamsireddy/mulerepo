@@ -40,8 +40,12 @@
 						<target>Cloudhub-US-East-2</target>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
-						<applicationName>cloudhub2-test</applicationName>
-						<businessGroupId>**********-e628</businessGroupId>
+						<applicationName>${appname}</applicationName>
+						<environment>${env}</environment>
+						<workerType>${vCore}</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<businessGroupId>${business}</businessGroupId>
+						<workers>${workers}</workers>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 					</cloudhub2Deployment>
