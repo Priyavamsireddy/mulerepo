@@ -43,7 +43,6 @@
 						<applicationName>${appname}</applicationName>
 						<environment>${env}</environment>
 						<businessGroupId>${business}</businessGroupId>
-						<workers>${workers}</workers>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 					</cloudhub2Deployment>
