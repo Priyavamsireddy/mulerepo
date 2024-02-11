@@ -42,7 +42,6 @@
 						<password>${anypoint.password}</password>
 						<applicationName>${appname}</applicationName>
 						<environment>${env}</environment>
-						<workerType>${vCore}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 						<businessGroupId>${business}</businessGroupId>
 						<workers>${workers}</workers>
